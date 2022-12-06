@@ -148,19 +148,19 @@
 
 <!-- Sections -->
 
-<section id="sections">
-  <h2>Sections</h2>
+<section id="sections" class="category stack-md">
+  <h2 class="heading category-name">Sections</h2>
 
   <!-- h1, h2, h3, h4, h5, h6 -->
-  <div id="headings">
-    <h3>
+  <div id="headings" class="element-container">
+    <h3 class="heading element-name">
       <span
         ><code>h1</code>, <code>h2</code>, <code>h3</code>, <code>h4</code>,
         <code>h5</code>, <code>h6</code>:
       </span>
       <span>Section Headings</span>
     </h3>
-    <div>
+    <div class="element">
       <h1>Heading level 1</h1>
       <h2>Heading level 2</h2>
       <h3>Heading level 3</h3>
@@ -171,12 +171,12 @@
   </div>
 
   <!-- address -->
-  <div id="address">
-    <h3>
+  <div id="address" class="element-container">
+    <h3 class="heading element-name">
       <span><code>address</code>: </span>
       <span>Contact Address</span>
     </h3>
-    <div>
+    <div class="element">
       <address>
         Infinite Loop,<br />
         Cupertino, CA<br />
@@ -188,16 +188,16 @@
 
 <!-- Grouping content -->
 
-<section id="grouping-content">
-  <h2>Grouping content</h2>
+<section id="grouping-content" class="category stack-md">
+  <h2 class="heading category-name">Grouping content</h2>
 
   <!-- p -->
-  <div id="p">
-    <h3>
+  <div id="p" class="element-container">
+    <h3 class="heading element-name">
       <span><code>p</code>: </span>
       <span>Paragraph</span>
     </h3>
-    <div>
+    <div class="element">
       <p>
         A paragraph (from the Greek paragraphos, “to write beside” or “written
         beside”) is a self-contained unit of a discourse in writing dealing with
@@ -210,23 +210,23 @@
   </div>
 
   <!-- hr -->
-  <div id="hr">
-    <h3>
+  <div id="hr" class="element-container">
+    <h3 class="heading element-name">
       <span><code>hr</code>: </span>
       <span>Thematic Break (Horizontal Rule)</span>
     </h3>
-    <div>
+    <div class="element">
       <hr />
     </div>
   </div>
 
   <!-- pre -->
-  <div id="pre">
-    <h3>
+  <div id="pre" class="element-container">
+    <h3 class="heading element-name">
       <span><code>pre</code>: </span>
       <span>Preformatted Text</span>
     </h3>
-    <div>
+    <div class="element">
       <pre>
 &lt;!DOCTYPE html&gt;
 &lt;html&gt;
@@ -242,12 +242,12 @@
   </div>
 
   <!-- blockquote -->
-  <div id="blockquote">
-    <h3>
+  <div id="blockquote" class="element-container">
+    <h3 class="heading element-name">
       <span><code>blockquote</code>: </span>
       <span>Block Quotation</span>
     </h3>
-    <div>
+    <div class="element">
       <blockquote cite="https://en.wikipedia.org/wiki/Block_quotation">
         <p>
           A block quotation (also known as a long quotation or extract) is a
@@ -265,12 +265,12 @@
   </div>
 
   <!-- ol -->
-  <div id="ol">
-    <h3>
+  <div id="ol" class="element-container">
+    <h3 class="heading element-name">
       <span><code>ol</code>: </span>
       <span>Ordered List</span>
     </h3>
-    <div>
+    <div class="element">
       <ol>
         <li>List Item 1</li>
         <li>List Item 2</li>
@@ -280,12 +280,12 @@
   </div>
 
   <!-- ul -->
-  <div id="ul">
-    <h3>
+  <div id="ul" class="element-container">
+    <h3 class="heading element-name">
       <span><code>ul</code>: </span>
       <span>Unordered List</span>
     </h3>
-    <div>
+    <div class="element">
       <ul>
         <li>List Item 1</li>
         <li>List Item 2</li>
@@ -295,12 +295,12 @@
   </div>
 
   <!-- dl -->
-  <div id="dl">
-    <h3>
+  <div id="dl" class="element-container">
+    <h3 class="heading element-name">
       <span><code>dl</code>: </span>
       <span>Description List</span>
     </h3>
-    <div>
+    <div class="element">
       <dl>
         <dt>Term 1</dt>
         <dd>Description/definition for Term 1.</dd>
@@ -315,14 +315,14 @@
   </div>
 
   <!-- figure -->
-  <div id="figure">
-    <h3>
+  <div id="figure" class="element-container">
+    <h3 class="heading element-name">
       <span><code>figure</code>: </span>
       <span>Figure with Optional Caption</span>
     </h3>
-    <div>
+    <div class="element">
       <figure>
-        <img src="https://placedog.net/1000?random" alt="a dog." />
+        <img src="https://placedog.net/1000?random" alt="A photo of a dog." />
         <figcaption>Here is a caption for this image.</figcaption>
       </figure>
     </div>
@@ -331,38 +331,38 @@
 
 <!-- Text-level semantics -->
 
-<section id="text-level-semantics">
-  <h2>Text-level semantics</h2>
+<section id="text-level-semantics" class="category stack-md">
+  <h2 class="heading category-name">Text-level semantics</h2>
 
   <!-- a -->
-  <div id="a">
-    <h3>
+  <div id="a" class="element-container">
+    <h3 class="heading element-name">
       <span><code>a</code>: </span>
       <span>Anchor</span>
     </h3>
-    <div>
+    <div class="element">
       <p>This is <a href="#!">a text link</a>.</p>
     </div>
   </div>
 
   <!-- em -->
-  <div id="em">
-    <h3>
+  <div id="em" class="element-container">
+    <h3 class="heading element-name">
       <span><code>em</code>: </span>
       <span>Emphasis</span>
     </h3>
-    <div>
+    <div class="element">
       <p>The <em>em element</em> is used to add emphasis.</p>
     </div>
   </div>
 
   <!-- strong -->
-  <div id="strong">
-    <h3>
+  <div id="strong" class="element-container">
+    <h3 class="heading element-name">
       <span><code>strong</code>: </span>
       <span>Strong Importance</span>
     </h3>
-    <div>
+    <div class="element">
       <p>
         The <strong>strong element</strong> is used to indicate strong importance.
       </p>
@@ -370,12 +370,12 @@
   </div>
 
   <!-- small -->
-  <div id="small">
-    <h3>
+  <div id="small" class="element-container">
+    <h3 class="heading element-name">
       <span><code>small</code>: </span>
       <span>Side Comment</span>
     </h3>
-    <div>
+    <div class="element">
       <p>
         This text is normal. <small
           >This text is small; it is used to convey something that has very
@@ -390,34 +390,34 @@
   </div>
 
   <!-- s -->
-  <div id="s">
-    <h3>
+  <div id="s" class="element-container">
+    <h3 class="heading element-name">
       <span><code>s</code>: </span>
       <span>Strikethrough</span>
     </h3>
-    <div>
+    <div class="element">
       <p><s>This text has a strikethrough</s>.</p>
     </div>
   </div>
 
   <!-- cite -->
-  <div id="cite">
-    <h3>
+  <div id="cite" class="element-container">
+    <h3 class="heading element-name">
       <span><code>cite</code>: </span>
       <span>Citation</span>
     </h3>
-    <div>
+    <div class="element">
       <p>More information can be found in <cite>[ISO-0000]</cite>.</p>
     </div>
   </div>
 
   <!-- q -->
-  <div id="q">
-    <h3>
+  <div id="q" class="element-container">
+    <h3 class="heading element-name">
       <span><code>q</code>: </span>
       <span>Inline Quotation</span>
     </h3>
-    <div>
+    <div class="element">
       <p>
         Jeremy Keith said:
         <q
@@ -437,12 +437,12 @@
   </div>
 
   <!-- dfn -->
-  <div id="dfn">
-    <h3>
+  <div id="dfn" class="element-container">
+    <h3 class="heading element-name">
       <span><code>dfn</code>: </span>
       <span>Definition</span>
     </h3>
-    <div>
+    <div class="element">
       <p>
         The HTML Definition element (<dfn>&lt;dfn&gt;</dfn>) is used to indicate
         the term being defined within the context of a definition phrase or
@@ -452,23 +452,23 @@
   </div>
 
   <!-- abbr -->
-  <div id="abbr">
-    <h3>
+  <div id="abbr" class="element-container">
+    <h3 class="heading element-name">
       <span><code>abbr</code>: </span>
       <span>Abbreviation</span>
     </h3>
-    <div>
+    <div class="element">
       <p><abbr title="HyperText Markup Language">HTML</abbr></p>
     </div>
   </div>
 
   <!-- ruby -->
-  <div id="ruby">
-    <h3>
+  <div id="ruby" class="element-container">
+    <h3 class="heading element-name">
       <span><code>ruby</code>: </span>
       <span>Ruby Annotation</span>
     </h3>
-    <div>
+    <div class="element">
       <ruby>
         漢 <rp>(</rp>
         <rt>Kan</rt>
@@ -481,12 +481,12 @@
   </div>
 
   <!-- time -->
-  <div id="time">
-    <h3>
+  <div id="time" class="element-container">
+    <h3 class="heading element-name">
       <span><code>time</code>: </span>
       <span>(Date) Time</span>
     </h3>
-    <div>
+    <div class="element">
       <p>
         A date: Unix time began
         <time datetime="1970-01-01">Jan. 1, 1970</time>
@@ -515,23 +515,23 @@
   </div>
 
   <!-- code -->
-  <div id="code">
-    <h3>
+  <div id="code" class="element-container">
+    <h3 class="heading element-name">
       <span><code>code</code>: </span>
       <span>Inline Code</span>
     </h3>
-    <div>
+    <div class="element">
       <p>Lorem ipsum <code>&lt;code&gt;</code> sit amet</p>
     </div>
   </div>
 
   <!-- var -->
-  <div id="var">
-    <h3>
+  <div id="var" class="element-container">
+    <h3 class="heading element-name">
       <span><code>var</code>: </span>
       <span>Variable</span>
     </h3>
-    <div>
+    <div class="element">
       <p>
         The <var>variable element</var>, such as <var>x</var> = <var>y</var>.
       </p>
@@ -539,12 +539,12 @@
   </div>
 
   <!-- samp -->
-  <div id="samp">
-    <h3>
+  <div id="samp" class="element-container">
+    <h3 class="heading element-name">
       <span><code>samp</code>: </span>
       <span>Sample Output</span>
     </h3>
-    <div>
+    <div class="element">
       <div>
         I was trying to boot my computer, but I got this hilarious message:<br />
         <samp>Keyboard not found. Press F1 to continue.</samp>
@@ -553,12 +553,12 @@
   </div>
 
   <!-- kbd -->
-  <div id="kbd">
-    <h3>
+  <div id="kbd" class="element-container">
+    <h3 class="heading element-name">
       <span><code>kbd</code>: </span>
       <span>Keyboard Input</span>
     </h3>
-    <div>
+    <div class="element">
       <p>
         Keyboard keys:
         <kbd>command</kbd>
@@ -581,12 +581,12 @@
   </div>
 
   <!-- sub -->
-  <div id="sub">
-    <h3>
+  <div id="sub" class="element-container">
+    <h3 class="heading element-name">
       <span><code>sub</code>: </span>
       <span>Subscript</span>
     </h3>
-    <div>
+    <div class="element">
       <p>Footnotes: Lorem<sub>1</sub></p>
       <p>
         Math variables: <var>x<sub>1</sub></var>,...,<var>x<sub>n</sub></var>
@@ -596,12 +596,12 @@
   </div>
 
   <!-- sup -->
-  <div id="sup">
-    <h3>
+  <div id="sup" class="element-container">
+    <h3 class="heading element-name">
       <span><code>sup</code>: </span>
       <span>Superscript</span>
     </h3>
-    <div>
+    <div class="element">
       <p>Exponents: <var>E</var>=<var>m</var><var>c</var><sup>2</sup></p>
       <p>Superior lettering: Lorem ipsum<sup>®</sup></p>
       <p>Ordinal numbers: 5<sup>th</sup></p>
@@ -609,23 +609,23 @@
   </div>
 
   <!-- i -->
-  <div id="i">
-    <h3>
+  <div id="i" class="element-container">
+    <h3 class="heading element-name">
       <span><code>i</code>: </span>
       <span>Idiomatic Text</span>
     </h3>
-    <div>
+    <div class="element">
       <p>The <i>i element</i> is text that is offset from the normal text.</p>
     </div>
   </div>
 
   <!-- b -->
-  <div id="b">
-    <h3>
+  <div id="b" class="element-container">
+    <h3 class="heading element-name">
       <span><code>b</code>: </span>
       <span>Bring Attention To</span>
     </h3>
-    <div>
+    <div class="element">
       <p>
         The <b>b element</b> is stylistically different text from normal text, without
         any special importance.
@@ -634,12 +634,12 @@
   </div>
 
   <!-- u -->
-  <div id="u">
-    <h3>
+  <div id="u" class="element-container">
+    <h3 class="heading element-name">
       <span><code>u</code>: </span>
       <span>Unarticulated Annotation (Underline)</span>
     </h3>
-    <div>
+    <div class="element">
       <p>
         The <u>u element</u> is text with an unarticulated, though explicitly rendered,
         non-textual annotation.
@@ -648,46 +648,48 @@
   </div>
 
   <!-- mark -->
-  <div id="mark">
-    <h3>
+  <div id="mark" class="element-container">
+    <h3 class="heading element-name">
       <span><code>mark</code>: </span>
       <span>Mark Text</span>
     </h3>
-    <div>
+    <div class="element">
       <p>The <mark>mark element</mark> indicates a highlight.</p>
     </div>
   </div>
 
   <!-- bdi -->
-  <div id="bdi">
-    <h3>
+  <div id="bdi" class="element-container">
+    <h3 class="heading element-name">
       <span><code>bdi</code>: </span>
       <span>Bidirectional Isolate</span>
     </h3>
-    <div>
-      <p><bdi>اَلأَعْشَى</bdi> - 1st place</p>
-      <p><bdi>Jerry Cruncher</bdi> - 2nd place</p>
+    <div class="element">
+      <p><bdi class="name">اَلأَعْشَى</bdi> - 1st place</p>
+      <p><bdi class="name">Jerry Cruncher</bdi> - 2nd place</p>
     </div>
   </div>
 
   <!-- bdo -->
-  <div id="bdo">
-    <h3>
+  <div id="bdo" class="element-container">
+    <h3 class="heading element-name">
       <span><code>bdo</code>: </span>
       <span>Bidirectional Text Override</span>
     </h3>
-    <div>
+    <div class="element">
       <p><bdo dir="rtl">This text will go right to left.</bdo></p>
     </div>
   </div>
 
   <!-- wbr -->
-  <div id="wbr">
-    <h3>
+  <div id="wbr" class="element-container">
+    <h3 class="heading element-name">
       <span><code>wbr</code>: </span>
       <span>Line Break Opportunity</span>
     </h3>
-    <div style="inline-size: 15em; overflow: hidden; resize: horizontal;">
+    <div
+      class="element"
+      style="inline-size: 15em; overflow: hidden; resize: horizontal;">
       <p>Fernstraßenbauprivatfinanzierungsgesetz</p>
       <p>Fernstraßen<wbr />bau<wbr />privat<wbr />finanzierungs<wbr />gesetz</p>
       <p>Fernstraßen&shy;bau&shy;privat&shy;finanzierungs&shy;gesetz</p>
@@ -697,16 +699,16 @@
 
 <!-- Edits -->
 
-<section id="edits">
-  <h2>Edits</h2>
+<section id="edits" class="category stack-md">
+  <h2 class="heading category-name">Edits</h2>
 
   <!-- del, ins -->
-  <div id="del-ins">
-    <h3>
+  <div id="del-ins" class="element-container">
+    <h3 class="heading element-name">
       <span><code>del</code>, <code>ins</code>: </span>
       <span>Deleted and Inserted Text</span>
     </h3>
-    <div>
+    <div class="element">
       <p>
         <del>This text is deleted</del> and <ins>This text is inserted</ins>.
       </p>
@@ -716,134 +718,124 @@
 
 <!-- Embedded content -->
 
-<section id="embedded-content">
-  <h2>Embedded content</h2>
+<section id="embedded-content" class="category stack-md">
+  <h2 class="heading category-name">Embedded content</h2>
 
   <!-- picture -->
-  <div id="picture">
-    <h3>
+  <div id="picture" class="element-container">
+    <h3 class="heading element-name">
       <span><code>picture</code>: </span>
       <span>Picture</span>
     </h3>
-    <div>
+    <div class="element">
       <picture>
         <source
           srcset="https://placedog.net/500?random"
           media="(max-width: 500px)" />
-        <img src="https://placedog.net/1000?random" alt="a dog." />
+        <img src="https://placedog.net/1000?random" alt="A photo of a dog." />
       </picture>
     </div>
   </div>
 
   <!-- img -->
-  <div id="img">
-    <h3>
+  <div id="img" class="element-container">
+    <h3 class="heading element-name">
       <span><code>img</code>: </span>
       <span>Image Embed</span>
     </h3>
-    <div>
-      <img src="https://placedog.net/1000?random" alt="a dog." />
+    <div class="element">
+      <img src="https://placedog.net/1000?random" alt="A photo of a dog." />
     </div>
   </div>
 
   <!-- iframe -->
-  <div id="iframe">
-    <h3>
+  <div id="iframe" class="element-container">
+    <h3 class="heading element-name">
       <span><code>iframe</code>: </span>
       <span>Inline Frame</span>
     </h3>
-    <div>
-      <iframe src="index.html " title=""
+    <div class="element">
+      <iframe src="index.html"
         >If you see this, your browser does not support the iframe element.</iframe>
     </div>
   </div>
 
   <!-- object -->
-  <div id="object">
-    <h3>
+  <div id="object" class="element-container">
+    <h3 class="heading element-name">
       <span><code>object</code>: </span>
       <span>External Object</span>
     </h3>
-    <div>
-      <object
-        type="image/jpeg"
-        title=""
-        data="https://placedog.net/1000?random" />
+    <div class="element">
+      <object type="image/jpeg" data="https://placedog.net/1000?random" />
     </div>
   </div>
 
   <!-- video -->
-  <div id="video">
-    <h3>
+  <div id="video" class="element-container">
+    <h3 class="heading element-name">
       <span><code>video</code>: </span>
       <span>Video Embed</span>
     </h3>
-    <div>
-      <video width="300" height="200">
-        <source src="" type="video/mp4" />
-        <track src="" kind="captions" srclang="en" label="english_captions" />
-      </video>
+    <div class="element">
+      <video src="assets/video.mp4" controls />
     </div>
   </div>
 
   <!-- audio -->
-  <div id="audio">
-    <h3>
+  <div id="audio" class="element-container">
+    <h3 class="heading element-name">
       <span><code>audio</code>: </span>
       <span>Embed Audio</span>
     </h3>
-    <div>
+    <div class="element">
       <audio src="assets/audio.mp3" controls />
     </div>
   </div>
 
   <!-- map-area -->
-  <div id="map-area">
-    <h3>
+  <div id="map-area" class="element-container">
+    <h3 class="heading element-name">
       <span><code>map</code>, <code>area</code>: </span>
       <span>Image Map Area</span>
     </h3>
-    <div>
+    <div class="element">
       <img
         src="assets/world-continents.png"
         alt="World continents"
         width="320"
         height="160"
+        orgwidth="320"
+        orgheight="160"
         usemap="#world-continents" />
       <map name="world-continents">
         <area
           title="North America"
-          aria-label=""
           href="https://en.wikipedia.org/wiki/North_America"
           shape="poly"
           coords="48,89,67,69,77,49,140,0,68,0,6,10,4,31,16,69" />
         <area
           title="South America"
-          aria-label=""
           href="https://en.wikipedia.org/wiki/South_America"
           shape="poly"
           coords="48,88,61,74,119,99,95,160,66,159" />
         <area
           title="Europe"
-          aria-label=""
           href="https://en.wikipedia.org/wiki/Europe"
           shape="poly"
           coords="124,49,145,46,158,50,187,43,198,6,146,1,115,21" />
         <area
           title="Africa"
-          aria-label=""
           href="https://en.wikipedia.org/wiki/Africa"
           shape="poly"
           coords="121,53,140,47,169,51,186,77,196,80,188,137,156,136,138,97,118,86" />
         <area
           title="Asia"
-          aria-label=""
           href="https://en.wikipedia.org/wiki/Asia"
           shape="poly"
           coords="166,50,184,77,201,74,215,91,258,108,263,87,283,74,297,8,192,3,191,29,187,46,170,42" />
         <area
           title="Australia"
-          aria-label=""
           href="https://en.wikipedia.org/wiki/Australia_(continent)"
           shape="poly"
           coords="257,107,263,85,314,89,316,137,294,151,249,132,248,114" />
@@ -852,12 +844,12 @@
   </div>
 
   <!-- math -->
-  <div id="math">
-    <h3>
+  <div id="math" class="element-container">
+    <h3 class="heading element-name">
       <span><code>math</code>: </span>
       <span>MathML</span>
     </h3>
-    <div>
+    <div class="element">
       <math>
         <mrow>
           <mrow>
@@ -882,12 +874,12 @@
   </div>
 
   <!-- svg -->
-  <div id="svg">
-    <h3>
+  <div id="svg" class="element-container">
+    <h3 class="heading element-name">
       <span><code>svg</code>: </span>
       <span>Scalable Vector Graphics</span>
     </h3>
-    <div>
+    <div class="element">
       <svg width="100px" height="100px">
         <circle cx="100" cy="100" r="100" fill="#1fa3ec" />
       </svg>
@@ -897,16 +889,16 @@
 
 <!-- Tabular data -->
 
-<section id="tabular-data">
-  <h2>Tabular data</h2>
+<section id="tabular-data" class="category stack-md">
+  <h2 class="heading category-name">Tabular data</h2>
 
   <!-- table -->
-  <div id="table">
-    <h3>
+  <div id="table" class="element-container">
+    <h3 class="heading element-name">
       <span><code>table</code>: </span>
       <span>Table</span>
     </h3>
-    <div>
+    <div class="element">
       <table>
         <caption>Table Caption</caption>
         <thead>
@@ -947,16 +939,16 @@
 
 <!-- Forms -->
 
-<section id="forms">
-  <h2>Forms</h2>
+<section id="forms" class="category stack-md">
+  <h2 class="heading category-name">Forms</h2>
 
   <!-- fieldset, legend -->
-  <div id="fieldset-legend">
-    <h3>
+  <div id="fieldset-legend" class="element-container">
+    <h3 class="heading element-name">
       <span><code>fieldset</code>, <code>legend</code>: </span>
       <span>Fieldset Set, Legend</span>
     </h3>
-    <div>
+    <div class="element">
       <fieldset>
         <legend>Field Set Legend</legend>
       </fieldset>
@@ -964,27 +956,27 @@
   </div>
 
   <!-- label -->
-  <div id="label">
-    <h3>
+  <div id="label" class="element-container">
+    <h3 class="heading element-name">
       <span><code>label</code>: </span>
       <span>Input Label</span>
     </h3>
-    <div>
+    <div class="element">
       <label for="form-input-label">Label</label>
       <input type="text" id="form-input-label" />
     </div>
   </div>
 
   <!-- input -->
-  <div id="input">
-    <h3>
+  <div id="input" class="element-container">
+    <h3 class="heading element-name">
       <span><code>input</code>: </span>
       <span>Input (Form Input)</span>
     </h3>
 
-    <div>
+    <div class="element stack-md">
       <!-- type="hidden" -->
-      <div>
+      <div class="element-type">
         <label for="form-input-hidden">hidden</label>
         <input
           type="hidden"
@@ -994,37 +986,37 @@
       </div>
 
       <!-- type="text" -->
-      <div>
+      <div class="element-type">
         <label for="form-input-text">text</label>
         <input type="text" id="form-input-text" placeholder="Placeholder" />
       </div>
 
       <!-- type="search" -->
-      <div>
+      <div class="element-type">
         <label for="form-input-search">search</label>
         <input type="search" id="form-input-search" placeholder="Placeholder" />
       </div>
 
       <!-- type="tel" -->
-      <div>
+      <div class="element-type">
         <label for="form-input-tel">tel</label>
         <input type="tel" id="form-input-tel" placeholder="Placeholder" />
       </div>
 
       <!-- type="url" -->
-      <div>
+      <div class="element-type">
         <label for="form-input-url">url</label>
         <input type="url" id="form-input-url" placeholder="Placeholder" />
       </div>
 
       <!-- type="email" -->
-      <div>
+      <div class="element-type">
         <label for="form-input-email">email</label>
         <input type="email" id="form-input-email" placeholder="Placeholder" />
       </div>
 
       <!-- type="password" -->
-      <div>
+      <div class="element-type">
         <label for="form-input-password">password</label>
         <input
           type="password"
@@ -1033,31 +1025,31 @@
       </div>
 
       <!-- type="date" -->
-      <div>
+      <div class="element-type">
         <label for="form-input-date">date</label>
         <input type="date" id="form-input-date" value="1970-01-01" />
       </div>
 
       <!-- type="month" -->
-      <div>
+      <div class="element-type">
         <label for="form-input-month">month</label>
         <input type="month" id="form-input-month" value="1970-01" />
       </div>
 
       <!-- type="week" -->
-      <div>
+      <div class="element-type">
         <label for="form-input-week">week</label>
         <input type="week" id="form-input-week" value="1970-W01" />
       </div>
 
       <!-- type="time" -->
-      <div>
+      <div class="element-type">
         <label for="form-input-time">time</label>
         <input type="time" id="form-input-time" min="09:00" max="18:00" />
       </div>
 
       <!-- type="datetime-local" -->
-      <div>
+      <div class="element-type">
         <label for="form-input-datetime-local">datetime-local</label>
         <input
           type="datetime-local"
@@ -1066,25 +1058,25 @@
       </div>
 
       <!-- type="number" -->
-      <div>
+      <div class="element-type">
         <label for="form-input-number">number</label>
         <input type="number" id="form-input-number" placeholder="Placeholder" />
       </div>
 
       <!-- type="range" -->
-      <div>
+      <div class="element-type">
         <label for="form-input-range">range</label>
         <input type="range" id="form-input-range" />
       </div>
 
       <!-- type="color" -->
-      <div>
+      <div class="element-type">
         <label for="form-input-color">color</label>
         <input type="color" id="form-input-color" />
       </div>
 
       <!-- type="checkbox" -->
-      <div>
+      <div class="element-type">
         <b>checkbox</b>
         <div>
           <label for="form-input-checkbox-1">
@@ -1093,7 +1085,7 @@
               id="form-input-checkbox-1"
               name="checkbox-1-name"
               value="checkbox-1-value"
-              checked />
+              checked="checked" />
             Choice 1
           </label>
           <label for="form-input-checkbox-2">
@@ -1116,7 +1108,7 @@
       </div>
 
       <!-- type="radio" -->
-      <div>
+      <div class="element-type">
         <b>radio</b>
         <div>
           <label for="form-input-radio-1">
@@ -1147,39 +1139,40 @@
       </div>
 
       <!-- type="file" -->
-      <div>
+      <div class="element-type">
         <label for="form-input-file-single">file</label>
         <input type="file" id="form-input-file-single" accept="" />
       </div>
 
       <!-- type="file" (multiple) -->
-      <div>
+      <div class="element-type">
         <label for="form-input-file-multiple">file (multiple)</label>
         <input type="file" id="form-input-file-multiple" multiple accept="" />
       </div>
 
       <!-- type="submit" -->
-      <div>
+      <div class="element-type">
         <label for="form-input-submit">submit</label>
         <input type="submit" id="form-input-submit" />
       </div>
 
       <!-- type="image" -->
-      <div>
+      <div class="element-type">
         <label for="form-input-image">image</label>
         <input
+          type="image"
           id="form-input-image"
           src="https://via.placeholder.com/150x48/e0e0e0/212121.png?text=INPUT+TYPE+IMAGE" />
       </div>
 
       <!-- type="reset" -->
-      <div>
+      <div class="element-type">
         <label for="form-input-reset">reset</label>
         <input type="reset" id="form-input-reset" />
       </div>
 
       <!-- type="button" -->
-      <div>
+      <div class="element-type">
         <label for="form-input-button">button</label>
         <input
           type="button"
@@ -1190,55 +1183,55 @@
   </div>
 
   <!-- button -->
-  <div id="button">
-    <h3>
+  <div id="button" class="element-container">
+    <h3 class="heading element-name">
       <span><code>button</code>: </span>
       <span>Button</span>
     </h3>
 
-    <div>
+    <div class="element stack-md">
       <!-- type="button" -->
-      <div>
+      <div class="element-type">
         <button type="button">&lt;button type=button&gt;</button>
       </div>
 
       <!-- type="submit" -->
-      <div>
+      <div class="element-type">
         <button type="submit">&lt;button type=submit&gt;</button>
       </div>
 
       <!-- type="reset" -->
-      <div>
+      <div class="element-type">
         <button type="reset">&lt;button type=reset&gt;</button>
       </div>
 
       <!-- disabled -->
-      <div>
+      <div class="element-type">
         <button disabled>&lt;button disabled&gt;</button>
       </div>
 
       <!-- aria-busy -->
-      <div>
+      <div class="element-type">
         <button aria-busy="true">&lt;button aria-busy&gt;</button>
       </div>
 
       <!-- aria-disabled -->
-      <div>
+      <div class="element-type">
         <button aria-disabled="true">&lt;button aria-disabled&gt;</button>
       </div>
 
       <!-- aria-hidden -->
-      <div>
+      <div class="element-type">
         <button aria-hidden="true">&lt;button aria-hidden&gt;</button>
       </div>
 
       <!-- hidden -->
-      <div>
+      <div class="element-type">
         <button hidden>&lt;button hidden&gt;</button>
       </div>
 
       <!-- aria-hidden=false hidden -->
-      <div>
+      <div class="element-type">
         <button aria-hidden="false" hidden
           >&lt;aria-hidden=false hidden&gt;</button>
       </div>
@@ -1246,15 +1239,15 @@
   </div>
 
   <!-- select -->
-  <div id="select">
-    <h3>
+  <div id="select" class="element-container">
+    <h3 class="heading element-name">
       <span><code>select</code>: </span>
       <span>Select</span>
     </h3>
 
-    <div>
+    <div class="element stack-md">
       <!-- simple -->
-      <div>
+      <div class="element-type">
         <label for="form-select-simple">Select</label>
         <select id="form-select-simple" name="select-simple">
           <option value="select-option-1">Option 1</option>
@@ -1264,7 +1257,7 @@
       </div>
 
       <!-- optgroup -->
-      <div>
+      <div class="element-type">
         <label for="form-select-optgroup"
           >Select with <code>optgroup</code></label>
         <select id="form-select-optgroup" name="select-optgroup">
@@ -1282,7 +1275,7 @@
       </div>
 
       <!-- multiple -->
-      <div>
+      <div class="element-type">
         <label for="form-select-multiple"
           >Select with <code>multiple</code></label>
         <select id="form-select-multiple" multiple name="select-multiple">
@@ -1295,12 +1288,12 @@
   </div>
 
   <!-- datalist -->
-  <div id="datalist">
-    <h3>
+  <div id="datalist" class="element-container">
+    <h3 class="heading element-name">
       <span><code>datalist</code>: </span>
       <span>Data List</span>
     </h3>
-    <div>
+    <div class="element">
       <label for="form-datalist">Data List</label>
       <input
         list="datalist-options"
@@ -1315,25 +1308,25 @@
   </div>
 
   <!-- textarea -->
-  <div id="textarea">
-    <h3>
+  <div id="textarea" class="element-container">
+    <h3 class="heading element-name">
       <span><code>textarea</code>: </span>
       <span>Textarea</span>
     </h3>
-    <div>
+    <div class="element">
       <label for="form-textarea">Textarea</label>
       <textarea id="form-textarea" placeholder="Placeholder" />
     </div>
   </div>
 
   <!-- output -->
-  <div id="output">
-    <h3>
+  <div id="output" class="element-container">
+    <h3 class="heading element-name">
       <span><code>output</code>: </span>
       <span>Output</span>
     </h3>
-    <div>
-      <form>
+    <div class="element">
+      <form oninput="result.value = parseInt(a.value) + parseInt(b.value)">
         <input type="number" name="a" value="2" />
         +
         <input type="number" name="b" value="2" />
@@ -1344,12 +1337,12 @@
   </div>
 
   <!-- progress -->
-  <div id="progress">
-    <h3>
+  <div id="progress" class="element-container">
+    <h3 class="heading element-name">
       <span><code>progress</code>: </span>
       <span>Progress Indicator</span>
     </h3>
-    <div>
+    <div class="element">
       <label for="progress-1">No value:</label>
       <progress id="progress-2">No value</progress>
 
@@ -1368,12 +1361,12 @@
   </div>
 
   <!-- meter -->
-  <div id="meter">
-    <h3>
+  <div id="meter" class="element-container">
+    <h3 class="heading element-name">
       <span><code>meter</code>: </span>
       <span>Meter</span>
     </h3>
-    <div>
+    <div class="element">
       <label for="fuel-1">Low level:</label>
       <meter
         id="fuel-1"
@@ -1419,25 +1412,25 @@
 
 <!-- Interactive elements -->
 
-<section id="interactive-elements">
-  <h2>Interactive elements</h2>
+<section id="interactive-elements" class="category stack-md">
+  <h2 class="heading category-name">Interactive elements</h2>
 
   <!-- details -->
-  <div id="details">
-    <h3>
+  <div id="details" class="element-container">
+    <h3 class="heading element-name">
       <span><code>details</code>: </span>
       <span>Details disclosure or Disclosure widget</span>
     </h3>
-    <div>
-      <div>
-        <h4>No <code>summary</code>:</h4>
+    <div class="element stack-md">
+      <div class="element-type">
+        <h4 class="heading">No <code>summary</code>:</h4>
         <details>
           <p>Something small enough to escape casual notice.</p>
         </details>
       </div>
 
-      <div>
-        <h4>With <code>summary</code>:</h4>
+      <div class="element-type">
+        <h4 class="heading">With <code>summary</code>:</h4>
         <details>
           <summary>System Requirements</summary>
           <p>
@@ -1451,12 +1444,12 @@
   </div>
 
   <!-- dialog -->
-  <div id="dialog">
-    <h3>
+  <div id="dialog" class="element-container">
+    <h3 class="heading element-name">
       <span><code>dialog</code>: </span>
       <span>Dialog</span>
     </h3>
-    <div>
+    <div class="element">
       <dialog open>
         <p>Greetings, one and all!</p>
       </dialog>
@@ -1466,16 +1459,16 @@
 
 <!-- Scripting -->
 
-<section>
-  <h2>Scripting</h2>
+<section id="scripting" class="category stack-md">
+  <h2 class="heading category-name">Scripting</h2>
 
   <!-- canvas -->
-  <div>
-    <h3>
+  <div id="canvas" class="element-container">
+    <h3 class="heading element-name">
       <span><code>canvas</code>: </span>
       <span>Graphics Canvas</span>
     </h3>
-    <div>
+    <div class="element">
       <canvas>Canvas</canvas>
     </div>
   </div>
