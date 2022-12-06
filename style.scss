@@ -240,18 +240,26 @@ $rose-700: #BE123C;
 $rose-800: #9F1239;
 $rose-900: #881337;
 
-:root{
+:root {
+  color-scheme: light dark;
   background-color: $slate-900;
+  color: $slate-50;
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: sans-serif;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
 }
 
-button{
+button {
   border: none;
 }
 
-input{
+input {
   outline: none;
   border: none;
 }
