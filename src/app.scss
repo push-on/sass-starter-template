@@ -268,13 +268,13 @@ button {
 }
 
 h1 {
-  margin: 0;
+  // margin: 0;
   padding: 0;
 }
 
 input {
   margin: 0;
-  padding: 0;
+  padding: 0.2rem;
   outline: none;
   border: none;
 }
@@ -285,7 +285,10 @@ input {
 }
 
 button {
-  padding: 0.6em 1.2em;
+  padding: 0.5rem 1.2rem;
+}
+
+.blue {
   background-color: $blue-500;
 
   &:hover {
