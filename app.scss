@@ -242,11 +242,15 @@ $rose-900: #881337;
 
 :root{
   background-color: $slate-900;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 button{
   border: none;
 }
+
 input{
   outline: none;
   border: none;
