@@ -1,151 +1,3 @@
-<div>
-  <h1>HTML elements test page</h1>
-
-  <p>
-    This is a test page filled with common HTML elements. Its main purpose is to
-    be used to provide visual feedback whilst building CSS systems and
-    frameworks.
-  </p>
-  <p>
-    The HTML elements are loosely categorized or grouped by function following
-    the references from <a
-      href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element">MDN</a>
-    and
-    <a href="https://html.spec.whatwg.org/multipage/#toc-semantics">WHATWG</a>.
-  </p>
-  <p>Based on the following works:</p>
-  <ul>
-    <li>
-      <a href="https://github.com/cbracco/html5-test-page"
-        >@cbracco's HTML5 Test Page</a>
-    </li>
-    <li><a href="https://github.com/xz/elements">@xz's xz/elements</a></li>
-  </ul>
-
-  <nav>
-    <h2>Table of contents</h2>
-    <details>
-      <summary>Table of contents</summary>
-      <ul>
-        <li>
-          <a href="#sections">Sections</a>
-          <ul>
-            <li>
-              <a href="#headings"
-                ><code>h1</code>, <code>h2</code>, <code>h3</code>,
-                <code>h4</code>, <code>h5</code>, <code>h6</code></a>
-            </li>
-            <li><a href="#address"><code>address</code></a></li>
-          </ul>
-        </li>
-        <li>
-          <a href="#grouping-content">Grouping content</a>
-          <ul>
-            <li><a href="#p"><code>p</code></a></li>
-            <li><a href="#hr"><code>hr</code></a></li>
-            <li><a href="#pre"><code>pre</code></a></li>
-            <li><a href="#blockquote"><code>blockquote</code></a></li>
-            <li><a href="#ol"><code>ol</code></a></li>
-            <li><a href="#ul"><code>ul</code></a></li>
-            <li><a href="#dl"><code>dl</code></a></li>
-            <li><a href="#figure"><code>figure</code></a></li>
-          </ul>
-        </li>
-        <li>
-          <a href="#text-level-semantics">Text-level semantics</a>
-          <ul>
-            <li><a href="#a"><code>a</code></a></li>
-            <li><a href="#em"><code>em</code></a></li>
-            <li><a href="#strong"><code>strong</code></a></li>
-            <li><a href="#small"><code>small</code></a></li>
-            <li><a href="#s"><code>s</code></a></li>
-            <li><a href="#cite"><code>cite</code></a></li>
-            <li><a href="#q"><code>q</code></a></li>
-            <li><a href="#dfn"><code>dfn</code></a></li>
-            <li><a href="#abbr"><code>abbr</code></a></li>
-            <li><a href="#ruby"><code>ruby</code></a></li>
-            <li><a href="#time"><code>time</code></a></li>
-            <li><a href="#code"><code>code</code></a></li>
-            <li><a href="#var"><code>var</code></a></li>
-            <li><a href="#samp"><code>samp</code></a></li>
-            <li><a href="#kbd"><code>kbd</code></a></li>
-            <li><a href="#sub"><code>sub</code></a></li>
-            <li><a href="#sup"><code>sup</code></a></li>
-            <li><a href="#i"><code>i</code></a></li>
-            <li><a href="#b"><code>b</code></a></li>
-            <li><a href="#u"><code>u</code></a></li>
-            <li><a href="#mark"><code>mark</code></a></li>
-            <li><a href="#bdi"><code>bdi</code></a></li>
-            <li><a href="#bdo"><code>bdo</code></a></li>
-            <li><a href="#wbr"><code>wbr</code></a></li>
-          </ul>
-        </li>
-        <li>
-          <a href="#edits">Edits</a>
-          <ul>
-            <li><a href="#del-ins"><code>del</code>, <code>ins</code></a></li>
-          </ul>
-        </li>
-        <li>
-          <a href="#embedded-content">Embedded content</a>
-          <ul>
-            <li><a href="#picture"><code>picture</code></a></li>
-            <li><a href="#img"><code>img</code></a></li>
-            <li><a href="#iframe"><code>iframe</code></a></li>
-            <li><a href="#object"><code>object</code></a></li>
-            <li><a href="#video"><code>video</code></a></li>
-            <li><a href="#audio"><code>audio</code></a></li>
-            <li><a href="#map-area"><code>map</code>, <code>area</code></a></li>
-            <li><a href="#math"><code>math</code></a></li>
-            <li><a href="#svg"><code>svg</code></a></li>
-          </ul>
-        </li>
-        <li>
-          <a href="#tabular-data">Tabular data</a>
-          <ul>
-            <li><a href="#table"><code>table</code></a></li>
-          </ul>
-        </li>
-        <li>
-          <a href="#forms">Forms</a>
-          <ul>
-            <li>
-              <a href="#fieldset-legend"
-                ><code>fieldset</code>, <code>legend</code></a>
-            </li>
-            <li><a href="#label"><code>label</code></a></li>
-            <li><a href="#input"><code>input</code></a></li>
-            <li><a href="#button"><code>button</code></a></li>
-            <li>
-              <a href="#select"
-                ><code>select</code>, <code>option</code>,
-                <code>optgroup</code></a>
-            </li>
-            <li><a href="#datalist"><code>datalist</code></a></li>
-            <li><a href="#textarea"><code>textarea</code></a></li>
-            <li><a href="#output"><code>output</code></a></li>
-            <li><a href="#progress"><code>progress</code></a></li>
-            <li><a href="#meter"><code>meter</code></a></li>
-          </ul>
-        </li>
-        <li>
-          <a href="#interactive-elements">Interactive elements</a>
-          <ul>
-            <li><a href="#details"><code>details</code></a></li>
-            <li><a href="#dialog"><code>dialog</code></a></li>
-          </ul>
-        </li>
-        <li>
-          <a href="#scripting">Scripting</a>
-          <ul>
-            <li><a href="#canvas"><code>canvas</code></a></li>
-          </ul>
-        </li>
-      </ul>
-    </details>
-  </nav>
-</div>
-
 <!-- Sections -->
 
 <section id="sections" class="category stack-md">
@@ -230,14 +82,15 @@
       <pre>
 &lt;!DOCTYPE html&gt;
 &lt;html&gt;
-	&lt;head&gt;
-		&lt;title&gt;Hello World&lt;/title&gt;
-	&lt;/head&gt;
-	&lt;body&gt;
-		&lt;h1&gt;Hello World.&lt;/h1&gt;
-		&lt;p&gt;Lorem ipsum dolor sit amet.&lt;/p&gt;
-	&lt;/body&gt;
-&lt;/html&gt;</pre>
+  &lt;head&gt;
+    &lt;title&gt;Hello World&lt;/title&gt;
+  &lt;/head&gt;
+  &lt;body&gt;
+    &lt;h1&gt;Hello World.&lt;/h1&gt;
+    &lt;p&gt;Lorem ipsum dolor sit amet.&lt;/p&gt;
+  &lt;/body&gt;
+&lt;/html&gt;
+      </pre>
     </div>
   </div>
 
@@ -781,7 +634,7 @@
       <span>Video Embed</span>
     </h3>
     <div class="element">
-      <video src="assets/video.mp4" controls>
+      <video src="src/assets/video.mp4" controls>
         <track kind="captions" />
       </video>
     </div>
@@ -794,7 +647,7 @@
       <span>Embed Audio</span>
     </h3>
     <div class="element">
-      <audio src="assets/audio.mp3" controls />
+      <audio src="src/assets/audio.mp3" controls />
     </div>
   </div>
 
@@ -806,7 +659,7 @@
     </h3>
     <div class="element">
       <img
-        src="assets/world-continents.png"
+        src="src/assets/world-continents.png"
         alt="World continents"
         width="320"
         height="160"
@@ -1172,7 +1025,7 @@
           aria-label=""
           type="image"
           id="form-input-image"
-          src="https://via.placeholder.com/150x48/e0e0e0/212121.png?text=INPUT+TYPE+IMAGE" />
+          src="https://via.placeholder.com/160x48/e0e0e0/212121.png?text=INPUT+TYPE+IMAGE" />
       </div>
 
       <!-- type="reset" -->
