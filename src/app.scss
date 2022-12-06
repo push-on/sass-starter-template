@@ -152,16 +152,16 @@ $cyan-700: #0E7490;
 $cyan-800: #155E75;
 $cyan-900: #164E63;
 
-$lightBlue-50: #F0F9FF;
-$lightBlue-100: #E0F2FE;
-$lightBlue-200: #BAE6FD;
-$lightBlue-300: #7DD3FC;
-$lightBlue-400: #38BDF8;
-$lightBlue-500: #0EA5E9;
-$lightBlue-600: #0284C7;
-$lightBlue-700: #0369A1;
-$lightBlue-800: #075985;
-$lightBlue-900: #0C4A6E;
+$sky-50: #F0F9FF;
+$sky-100: #E0F2FE;
+$sky-200: #BAE6FD;
+$sky-300: #7DD3FC;
+$sky-400: #38BDF8;
+$sky-500: #0EA5E9;
+$sky-600: #0284C7;
+$sky-700: #0369A1;
+$sky-800: #075985;
+$sky-900: #0C4A6E;
 
 $blue-50: #EFF6FF;
 $blue-100: #DBEAFE;
@@ -242,10 +242,6 @@ $rose-900: #881337;
 
 :root {
   color-scheme: light dark;
-  background-color: $slate-900;
-  color: $slate-50;
-  margin: 0;
-  padding: 0;
   box-sizing: border-box;
   font-family: sans-serif;
   font-synthesis: none;
@@ -255,12 +251,30 @@ $rose-900: #881337;
   -webkit-text-size-adjust: 100%;
 }
 
+body {
+  margin: 0;
+  padding: 0;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
 button {
   border: none;
   cursor: pointer;
 }
 
+h1 {
+  margin: 0;
+  padding: 0;
+}
+
 input {
+  margin: 0;
+  padding: 0;
   outline: none;
   border: none;
 }
@@ -277,4 +291,11 @@ button {
   &:hover {
     background-color: $blue-600;
   }
+}
+
+.container {
+  // border: solid white 1px;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
 }

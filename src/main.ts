@@ -1,12 +1,8 @@
-import './index.scss'
-import { setupCounter } from './components/counter'
+import './app.scss'
+import App from './App.svelte'
 
-document.querySelector<HTMLDivElement>('#root')!.innerHTML = `
-  <div class="underline">
-    <h1>hello World</h1>
-  </div>
-  <div class="card">
-    <button id="counter" type="button"></button>
-  </div>
-`
-setupCounter(document.querySelector<HTMLButtonElement>('#counter')!)
+const app = new App({
+  target: document.getElementById('app')
+})
+
+export default app
