@@ -257,9 +257,24 @@ $rose-900: #881337;
 
 button {
   border: none;
+  cursor: pointer;
 }
 
 input {
   outline: none;
   border: none;
+}
+
+.underline {
+  text-decoration: underline $slate-50 5px;
+  text-underline-offset: 8px;
+}
+
+button {
+  padding: 0.6em 1.2em;
+  background-color: $blue-500;
+
+  &:hover {
+    background-color: $blue-600;
+  }
 }
