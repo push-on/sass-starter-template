@@ -322,7 +322,7 @@
     </h3>
     <div class="element">
       <figure>
-        <img src="https://placedog.net/1000?random" alt="A photo of a dog." />
+        <img src="https://placedog.net/1000?random" alt="a dog." />
         <figcaption>Here is a caption for this image.</figcaption>
       </figure>
     </div>
@@ -732,7 +732,7 @@
         <source
           srcset="https://placedog.net/500?random"
           media="(max-width: 500px)" />
-        <img src="https://placedog.net/1000?random" alt="A photo of a dog." />
+        <img src="https://placedog.net/1000?random" alt="a dog." />
       </picture>
     </div>
   </div>
@@ -744,7 +744,7 @@
       <span>Image Embed</span>
     </h3>
     <div class="element">
-      <img src="https://placedog.net/1000?random" alt="A photo of a dog." />
+      <img src="https://placedog.net/1000?random" alt="a dog." />
     </div>
   </div>
 
@@ -755,7 +755,7 @@
       <span>Inline Frame</span>
     </h3>
     <div class="element">
-      <iframe src="index.html"
+      <iframe src="index.html" title=""
         >If you see this, your browser does not support the iframe element.</iframe>
     </div>
   </div>
@@ -767,7 +767,10 @@
       <span>External Object</span>
     </h3>
     <div class="element">
-      <object type="image/jpeg" data="https://placedog.net/1000?random" />
+      <object
+        type="image/jpeg"
+        title=""
+        data="https://placedog.net/1000?random" />
     </div>
   </div>
 
@@ -778,7 +781,9 @@
       <span>Video Embed</span>
     </h3>
     <div class="element">
-      <video src="assets/video.mp4" controls />
+      <video src="assets/video.mp4" controls>
+        <track kind="captions" />
+      </video>
     </div>
   </div>
 
@@ -805,38 +810,42 @@
         alt="World continents"
         width="320"
         height="160"
-        orgwidth="320"
-        orgheight="160"
         usemap="#world-continents" />
       <map name="world-continents">
         <area
           title="North America"
           href="https://en.wikipedia.org/wiki/North_America"
+          aria-label=""
           shape="poly"
           coords="48,89,67,69,77,49,140,0,68,0,6,10,4,31,16,69" />
         <area
           title="South America"
           href="https://en.wikipedia.org/wiki/South_America"
+          aria-label=""
           shape="poly"
           coords="48,88,61,74,119,99,95,160,66,159" />
         <area
           title="Europe"
           href="https://en.wikipedia.org/wiki/Europe"
+          aria-label=""
           shape="poly"
           coords="124,49,145,46,158,50,187,43,198,6,146,1,115,21" />
         <area
           title="Africa"
           href="https://en.wikipedia.org/wiki/Africa"
+          aria-label=""
           shape="poly"
           coords="121,53,140,47,169,51,186,77,196,80,188,137,156,136,138,97,118,86" />
         <area
           title="Asia"
           href="https://en.wikipedia.org/wiki/Asia"
+          aria-label=""
           shape="poly"
           coords="166,50,184,77,201,74,215,91,258,108,263,87,283,74,297,8,192,3,191,29,187,46,170,42" />
         <area
           title="Australia"
           href="https://en.wikipedia.org/wiki/Australia_(continent)"
+          aria-label=""
           shape="poly"
           coords="257,107,263,85,314,89,316,137,294,151,249,132,248,114" />
       </map>
@@ -1085,7 +1094,7 @@
               id="form-input-checkbox-1"
               name="checkbox-1-name"
               value="checkbox-1-value"
-              checked="checked" />
+              checked />
             Choice 1
           </label>
           <label for="form-input-checkbox-2">
@@ -1160,6 +1169,7 @@
       <div class="element-type">
         <label for="form-input-image">image</label>
         <input
+          aria-label=""
           type="image"
           id="form-input-image"
           src="https://via.placeholder.com/150x48/e0e0e0/212121.png?text=INPUT+TYPE+IMAGE" />
@@ -1326,7 +1336,7 @@
       <span>Output</span>
     </h3>
     <div class="element">
-      <form oninput="result.value = parseInt(a.value) + parseInt(b.value)">
+      <form>
         <input type="number" name="a" value="2" />
         +
         <input type="number" name="b" value="2" />
