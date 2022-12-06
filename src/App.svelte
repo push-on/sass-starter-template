@@ -1,9 +1,9 @@
 <script>
-  import Page from './libs/page.svelte'
-  import Test from './libs/test.svelte';
+  import Test2 from './libs/test2.svelte'
+  import Test from './libs/test.svelte'
 </script>
 
 <main>
-  <!-- <Page /> -->
+  <!-- <Test2 /> -->
   <Test />
 </main>
