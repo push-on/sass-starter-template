@@ -1,8 +1,5 @@
-@use './colors.scss' as *;
-
 :root {
   color-scheme: light dark;
-  background-color: $slate-900;
   box-sizing: border-box;
   font-family: sans-serif;
   font-synthesis: none;
@@ -16,8 +13,6 @@
 *::before,
 *::after {
   box-sizing: border-box;
-  // margin: 0;
-  // padding: 0;
 }
 
 button,
