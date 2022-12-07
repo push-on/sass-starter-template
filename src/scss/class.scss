@@ -1,0 +1,6 @@
+@use './colors.scss' as *;
+
+.underline {
+  text-decoration: underline $slate-50 5px;
+  text-underline-offset: 8px;
+}
