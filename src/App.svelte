@@ -1,5 +1,5 @@
 <script>
-  import Test from './libs/test.svelte'
+  import Test from './lib/test.svelte'
 </script>
 
 <main>
