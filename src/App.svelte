@@ -1,7 +1,3 @@
-<script>
-  import Test from './lib/test.svelte'
-</script>
-
 <main>
-  <Test />
+  <h1 class="underline">Hello world</h1>
 </main>

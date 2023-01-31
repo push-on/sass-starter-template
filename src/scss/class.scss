@@ -1,4 +1,5 @@
 @use './colors.scss' as *;
+@use './size.scss' as *;
 
 .underline {
   text-decoration: underline $slate-50 5px;
