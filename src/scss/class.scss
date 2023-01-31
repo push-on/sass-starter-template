@@ -3,5 +3,22 @@
 
 .underline {
   text-decoration: underline $slate-50 5px;
-  text-underline-offset: 8px;
+  text-underline-offset: $s-5;
+}
+
+.btn-3d {
+  box-shadow: 0 4px $blue-600;
+  background-color: $blue-400;
+  text-transform: uppercase;
+  padding: 10px 20px;
+  border-radius: 5px;
+  // transition: all .2s ease;
+  font-weight: 900;
+  cursor: pointer;
+  letter-spacing: 1px;
+
+  &:active {
+    box-shadow: 0 1px $blue-600;
+    transform: translateY(3px);
+  }
 }
