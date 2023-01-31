@@ -1,17 +1,17 @@
 lockfileVersion: 5.4
 
 specifiers:
+  '@fullhuman/postcss-purgecss': ^5.0.0
   '@sveltejs/vite-plugin-svelte': ^2.0.2
   postcss: ^8.4.21
-  purgecss: ^5.0.0
   sass: ^1.57.1
   svelte: ^3.55.1
   vite: ^4.0.4
 
 devDependencies:
+  '@fullhuman/postcss-purgecss': 5.0.0_postcss@8.4.21
   '@sveltejs/vite-plugin-svelte': 2.0.2_svelte@3.55.1+vite@4.0.4
   postcss: 8.4.21
-  purgecss: 5.0.0
   sass: 1.57.1
   svelte: 3.55.1
   vite: 4.0.4_sass@1.57.1
@@ -215,6 +215,15 @@ packages:
     requiresBuild: true
     dev: true
     optional: true
+
+  /@fullhuman/postcss-purgecss/5.0.0_postcss@8.4.21:
+    resolution: {integrity: sha512-onDS/b/2pMRzqSoj4qOs2tYFmOpaspjTAgvACIHMPiicu1ptajiBruTrjBzTKdxWdX0ldaBb7wj8nEaTLyFkJw==}
+    peerDependencies:
+      postcss: ^8.0.0
+    dependencies:
+      postcss: 8.4.21
+      purgecss: 5.0.0
+    dev: true
 
   /@jridgewell/sourcemap-codec/1.4.14:
     resolution: {integrity: sha512-XPSJHWmi394fuUuzDnGz1wiKqWfo1yXecHQMRf2l6hztTO+nPru658AyDngaBe7isIxEkRsPR3FZh+s7iVa4Uw==}
